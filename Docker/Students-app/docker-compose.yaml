@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./BE
+    container_name: tomcat-backend
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build:
+      context: ./FE
+    container_name: apache-frontend
+    ports:
+      - "80:80"

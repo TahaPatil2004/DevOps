@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worker Form Sheet - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 90%;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+        p {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .logo {
+            height: 60px;
+            width: auto;
+        }
+        .worker-photo {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .logo {
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logos -->
+        <div class="logo-container">
+            <img src="https://cloudblitz.in/wp-content/uploads/2022/04/Untitled_design__22_-removebg-preview.png" alt="CloudBlitz Logo" class="logo">
+        </div>
+
+        <!-- Worker Photo -->
+        <img src="https://www.shutterstock.com/shutterstock/photos/2060102003/display_1500/stock-photo-indian-construction-site-manager-standing-with-folded-arms-wearing-safety-vest-and-helmet-thinking-2060102003.jpg" alt="Worker Photo" class="worker-photo">
+
+        <!-- Heading and Button -->
+        <h1>Welcome to the Worker Form Sheet Project</h1>
+        <p>Click the button below to access the worker form and manage worker details efficiently.</p>
+        <a href="http://your-angular-app-url" class="btn">Go to Worker Form</a>
+    </div>
+</body>
+</html>
